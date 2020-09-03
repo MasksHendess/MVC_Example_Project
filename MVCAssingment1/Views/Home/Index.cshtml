@@ -1,0 +1,85 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    API Requests
+                </th>
+                <th>
+                    Path
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    GET Movies
+                </td>
+                <td>
+                    /api/Movies
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    GET Movie(s) by title
+                </td>
+                <td>
+                    /api/Movies/?title=MovieTitle
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    GET Movie Comment by id
+                </td>
+                <td>
+                    /api/Movies/{id}/comments
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    GET Movie by id
+                </td>
+                <td>
+                    /api/Movies/{id}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    (DEL) Delete Movie by id
+                </td>
+                <td>
+                    /api/Movies/{id}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    (PUT) Update Movie
+                </td>
+                <td>
+                    /api/Movies/{id}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    (POST) Add Movie
+                </td>
+                <td>
+                    /api/Movies
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    (POST) Add Comment
+                </td>
+                <td>
+                    /api/Movies/{id}/comments
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
